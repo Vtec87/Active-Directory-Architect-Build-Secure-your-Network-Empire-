@@ -2,7 +2,7 @@
 
 # Active Directory Architect: Building and Securing Your Network Empire
 
-[Hyperlinked Home Lab Running Active Directory Oracle VirtualBox Add Users with PowerShell.docx](insert_hyperlink_here)
+[Hyperlinked Home Lab Running Active Directory Oracle VirtualBox Add Users with PowerShell.docx](https://1drv.ms/w/s!AjoLJYJC2c5dmADKSy8qzk1KkasG?e=ucebnz) 
 
 ## Objective
 Established a dedicated home lab environment to simulate real-world Active Directory configurations and networking scenarios relevant to cybersecurity applications.
