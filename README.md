@@ -34,4 +34,4 @@ Established a dedicated home lab environment to simulate real-world Active Direc
 - Demonstrated scripting expertise through PowerShell automation in both user management and cybersecurity contexts.
 - Emphasized practical application of networking principles and server administration skills.
 
-*[Visual Aid: Insert Diagram/Screenshot of Lab Environment]*
+-![Screenshot 2023-12-06 164319](https://github.com/Vtec87/Active-Directory-Architect-Build-Secure-your-Network-Empire-/assets/115051912/66bccb2e-4245-4041-8d99-701d56163846)
