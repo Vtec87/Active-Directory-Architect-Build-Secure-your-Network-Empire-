@@ -33,7 +33,10 @@ Embark on a journey where networking mastery awaits. Ever wondered how to craft 
    - For those seeking an extra challenge, fortify your virtual environment with security configurations, delve into redundancy strategies, or explore advanced scripting possibilities. Advanced users may experiment with VLANs or delve into script-driven wonders.
 
 **Visuals:**
-   - Benefit from illustrative visuals that guide you through each step. Visual aids include screenshots [here](example_link) for a more intuitive learning experience.
+   - Benefit from illustrative visuals that guide you through each step. Visual aide for a more intuitive learning experience.
+![Screenshot 2023-11-13 115809](https://github.com/Vtec87/Active-Directory-Architect-Build-Secure-your-Network-Empire-/assets/115051912/3d8e0110-7b6e-4f98-ae41-70b910ef8c3f)
+
+
 
 **Concise Conclusion:**
    - Elevate your networking prowess and be part of a transformative learning experience. Ready to shape virtual environments with confidence? Let's begin!
