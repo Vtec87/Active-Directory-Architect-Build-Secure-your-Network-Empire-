@@ -15,7 +15,17 @@ Embark on a journey where networking mastery awaits. Ever wondered how to craft 
    - Tailored for individuals with a foundational understanding of networking concepts, this lab is ideal for those familiar with virtualization basics and operating system fundamentals.
 
 **Intriguing Opening:**
-   - Picture this: You, seamlessly navigating the intricate realm of virtual networks, building connections that transcend the ordinary. Ready to dive in?
+   - I am excited to share the outcomes of a meticulously curated project within my home laboratory. Through a comprehensive guide and tutorial, I have elucidated the nuances of constructing an Active Directory using PowerShell within a virtualized environment. To provide a high-level overview, I used a diagram, which you can review if needed for a clearer idea of the setup.
+
+I began by downloading and installing Oracle VirtualBox, which will be used to run my virtual machines. After installation, I downloaded ISO files for Windows 10 and Server 2019, which will be used to install the operating systems on two separate virtual machines.
+
+The first virtual machine I created will serve as my domain controller, housing Active Directory. This virtual machine is configured with two network adapters: one for connecting to the outside internet and the other for connecting to the VirtualBox VPN, which the client machines will use. 
+
+After setting up the virtual machine, I installed Server 2019 and configured IP addressing for the internal network. The external adapter automatically receives an IP address from my home network/router. Once IP addressing was set up, I named the server, installed Active Directory, and created the domain. I then configured routing so that clients on the private network could access the internet through the domain controller.
+
+Next, I set up DHCP on the domain controller to ensure that the Windows 10 client machine could automatically obtain an IP address. Before creating the client virtual machine, I ran a PowerShell script on the domain controller to automatically create a thousand users in Active Directory.
+
+After creating the users, I proceeded to set up another virtual machine (VM) and installed Windows 10 on it. This VM was connected to the “Private VirtualBox Network,” named “Client1,” and joined to the domain. Finally, I logged into the client VM using one of the domain accounts I created.
 
 **Estimated Time:**
    - Plan for a dynamic 3-4 hour experience, adjusting as needed based on your familiarity with networking concepts.
